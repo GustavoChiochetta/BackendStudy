@@ -7,12 +7,12 @@ export default props =>
         <nav className="menu">
             {/*TODO: Refatorar em casa, criar componente para a tag a */}
             <Icons 
-                link="#/"
+                link="/"
                 className="fa fa-home"
                 title="Inicio"
             />
             <Icons 
-                link="#/user"
+                link="/users"
                 className="fa fa-users"
                 title="Usuários"
             />
